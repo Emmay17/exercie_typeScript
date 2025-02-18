@@ -1,4 +1,15 @@
 
+
+// fonction d'Addition de Deux Nombres
+function addition(a: number, b: number): number {
+    return a + b;
+}
+
+// function reverseString
+function reverseString(str: string): string {
+    return str.split("").reverse().join("");
+}
+
 // 3. Vérification de Nombre Pair
 function isEven (nombre : number){
 if(nombre % 2 == 0){
@@ -23,5 +34,6 @@ console.log(getFirstElement([1,2,3]));
 const phrase : string = "emmanuel mayele";
 
 console.log(phrase.toLocaleUpperCase());
+
 
 
