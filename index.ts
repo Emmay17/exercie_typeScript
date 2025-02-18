@@ -12,7 +12,9 @@ console.log(isEven(4));
 
 //6. Récupérer le Premier Élément d'un Tableau
 
-function getFirstElement (tab : number[]){
-    tab = [1,2,3];
+function getFirstElement (tab : number[]) : number{
+    
     return tab[0];
 }
+console.log(getFirstElement([1,2,3]));
+fit
