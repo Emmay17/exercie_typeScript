@@ -1,5 +1,8 @@
 // toUpperCaseFunction
 const phrase : string = "emmanuel mayele";
 
-console.log(phrase.toLocaleUpperCase());
+function toUpperCaseFunction(text: string){
+    return text.toLocaleUpperCase();
+}
+console.log(toUpperCaseFunction(phrase));
 
