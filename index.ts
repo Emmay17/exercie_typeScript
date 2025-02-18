@@ -1,8 +1,15 @@
 // toUpperCaseFunction
-const phrase : string = "emmanuel mayele";
+// const phrase : string = "emmanuel mayele";
 
-function toUpperCaseFunction(text: string) : string{
-    return text.toUpperCase();
+// function toUpperCaseFunction(text: string) : string{
+//     return text.toUpperCase();
+// }
+// console.log(toUpperCaseFunction(phrase));
+
+// verifier si un tableau est un tableau 
+
+function isArray(a : string[]) : boolean{
+    return Array.isArray(a)
 }
-console.log(toUpperCaseFunction(phrase));
 
+console.log(isArray(["maman","moi","lui"]));
