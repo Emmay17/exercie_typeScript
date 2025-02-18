@@ -8,7 +8,7 @@
 
 // verifier si un tableau est un tableau 
 
-function isArray(a : string[]) : boolean{
+function isArray(a : unknown) : boolean{
     return Array.isArray(a)
 }
 
